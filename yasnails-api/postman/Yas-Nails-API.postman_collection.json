@@ -1,0 +1,536 @@
+{
+  "info": {
+    "name": "Yas Nails API MVC",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost/yasnails-api"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET categorias",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/categorias"
+      }
+    },
+    {
+      "name": "POST categorias",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/categorias"
+      }
+    },
+    {
+      "name": "GET categorias por ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/categorias/1"
+      }
+    },
+    {
+      "name": "PUT categorias por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/categorias/1"
+      }
+    },
+    {
+      "name": "PATCH categorias por ID",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/categorias/1"
+      }
+    },
+    {
+      "name": "DELETE categorias por ID",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/categorias/1"
+      }
+    },
+    {
+      "name": "GET servicios",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/servicios"
+      }
+    },
+    {
+      "name": "POST servicios",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/servicios"
+      }
+    },
+    {
+      "name": "GET servicios por ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/servicios/1"
+      }
+    },
+    {
+      "name": "PUT servicios por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/servicios/1"
+      }
+    },
+    {
+      "name": "PATCH servicios por ID",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/servicios/1"
+      }
+    },
+    {
+      "name": "DELETE servicios por ID",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/servicios/1"
+      }
+    },
+    {
+      "name": "GET clientes",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/clientes"
+      }
+    },
+    {
+      "name": "POST clientes",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/clientes"
+      }
+    },
+    {
+      "name": "GET clientes por ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/clientes/1"
+      }
+    },
+    {
+      "name": "PUT clientes por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/clientes/1"
+      }
+    },
+    {
+      "name": "PATCH clientes por ID",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/clientes/1"
+      }
+    },
+    {
+      "name": "DELETE clientes por ID",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/clientes/1"
+      }
+    },
+    {
+      "name": "GET profesionales",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/profesionales"
+      }
+    },
+    {
+      "name": "POST profesionales",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/profesionales"
+      }
+    },
+    {
+      "name": "GET profesionales por ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/profesionales/1"
+      }
+    },
+    {
+      "name": "PUT profesionales por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/profesionales/1"
+      }
+    },
+    {
+      "name": "PATCH profesionales por ID",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/profesionales/1"
+      }
+    },
+    {
+      "name": "DELETE profesionales por ID",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/profesionales/1"
+      }
+    },
+    {
+      "name": "GET reservas",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/reservas"
+      }
+    },
+    {
+      "name": "POST reservas",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/reservas"
+      }
+    },
+    {
+      "name": "GET reservas por ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/reservas/1"
+      }
+    },
+    {
+      "name": "PUT reservas por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/reservas/1"
+      }
+    },
+    {
+      "name": "PATCH reservas por ID",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/reservas/1"
+      }
+    },
+    {
+      "name": "DELETE reservas por ID",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/reservas/1"
+      }
+    },
+    {
+      "name": "GET pagos",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/pagos"
+      }
+    },
+    {
+      "name": "POST pagos",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/pagos"
+      }
+    },
+    {
+      "name": "GET pagos por ID",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/api/pagos/1"
+      }
+    },
+    {
+      "name": "PUT pagos por ID",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/pagos/1"
+      }
+    },
+    {
+      "name": "PATCH pagos por ID",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "{{baseUrl}}/api/pagos/1"
+      }
+    },
+    {
+      "name": "DELETE pagos por ID",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/api/pagos/1"
+      }
+    }
+  ]
+}
